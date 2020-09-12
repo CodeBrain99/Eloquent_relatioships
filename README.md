@@ -1,3 +1,17 @@
+> requirements
+1) composer (laravel)
+2) Xampp (mySql + php + apache)
+
+
+> install it on your machine
+1) `git clone https://github.com/CodeBrain99/Eloquent_relatioships.git`
+2) `cd Eloquent_relatioships`
+3) `composer install`
+4) change the database name in `.env` file - rename it first from `example.env` to `.env`
+5) probably you need to `php artisan key:generate`
+5) `php artisan migrate --seed`
+6) `php artisan serve`
+
 <p align="center"><img src="Relationships.jpg"></p>
 
 <p align="center">
